@@ -8,3 +8,17 @@
 
 }
 
+.debug{
+    outline: 1px solid red;
+}
+
+#header{
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+}
+
+#header a{
+    text-decoration: none;
+    color: var(--bg-light);
+}
+
