@@ -37,6 +37,8 @@
 /* HEADER CLASSES END */
 
 /* MAIN CLASSES */
+
+/* hero classes section */
 .logo img{
     width: 300px;
 }
@@ -93,5 +95,22 @@
     justify-content: center;
     align-items: center;
 }
+
+/* hero classes section end */
+
+
+/* portfolio classes */
+
+#portfolio img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.mb-card{
+    border-radius: 25px;
+}
+
+/* portfolio classes end */
 
 /* MAIN CLASSES END */
