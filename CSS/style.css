@@ -35,3 +35,63 @@
 }
 
 /* HEADER CLASSES END */
+
+/* MAIN CLASSES */
+.logo img{
+    width: 300px;
+}
+
+#hero{
+    background-color: var(--bg-section);
+    color: var(--bg-light);
+}
+
+.sticker{
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lines{
+    width: 75%;
+    height: 45px;
+    position: relative;
+}
+
+.lines i{
+    font-size: 1.5rem;
+}
+
+.lines::before, .lines::after{
+    content:'';
+    position: absolute;
+    margin: auto;
+    height: 5px;
+    background-color: var(--bg-light);
+    width: 45%;
+    top: 45%;
+}
+.lines::before{
+    right: 0;
+}
+.lines::after{
+    left: 0;
+}
+
+.item-pos{
+    height: 100%;
+    width: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin:auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN CLASSES END */
