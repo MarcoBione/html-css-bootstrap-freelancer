@@ -8,10 +8,13 @@
 
 }
 
+/* utilities */
 .debug{
     outline: 1px solid red;
 }
+/* utilities end */
 
+/* HEADER CLASSES */
 #header{
     background-color: var(--bg-dark);
     color: var(--bg-light);
@@ -20,5 +23,15 @@
 #header a{
     text-decoration: none;
     color: var(--bg-light);
+    font-weight: bold;
 }
 
+#header button{
+    color: var(--bg-light);
+}
+
+#header .border-style-menu{
+    border:1px solid var(--bg-light);
+}
+
+/* HEADER CLASSES END */
