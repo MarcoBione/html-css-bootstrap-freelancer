@@ -133,7 +133,10 @@
 /* about me classes end */
 
 /* contact me classes */
-
+.form-label{
+    font-size: 1.5rem;
+    font-weight: semibold;
+}
 /* contanct me classes end */
 
 /* MAIN CLASSES END */
