@@ -137,6 +137,20 @@
     font-size: 1.5rem;
     font-weight: semibold;
 }
+
+.btn-style-f{
+    background-color: var(--bg-section);
+    border: 1px solid var(--bg-section);
+    color: var(--bg-light);
+    font-weight: 500;
+    transition: background-color 0.4s;
+}
+
+.btn-style-f:hover{
+    background-color: var(--bg-light);
+    border: 1px solid var(--bg-section);
+    color: var(--bg-section);
+}
 /* contanct me classes end */
 
 /* MAIN CLASSES END */
