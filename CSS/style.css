@@ -1,7 +1,7 @@
 :root{
     /* Color styles */
 --bg-dark: #2C3E50;
---bg-section: #1ABC9C;
+--bg-section: #1abc9c;
 --bg-light: #FFFFFF;
 --bg-soft-dark: #3A546D;
 --text-dark: #2C3E50;
@@ -63,6 +63,22 @@
     background-color: var(--bg-light);
 }
 
+.stareven i{
+    font-size: 2rem;
+    width: 20%;
+    display: block;
+}
+
+.stareven:before, .stareven:after{
+    content:'';
+    display: block;
+    width: 40%;
+    height: 4px;
+    border-radius: 3px;
+    background-color: var(--text-dark);
+}
+
+
 /* hero classes section end */
 
 
@@ -70,8 +86,34 @@
 
 #portfolio img{
     width: 100%;
-    object-fit: cover;
     display: block;
+    position: relative;
+}
+
+.wrapp-img{
+    position: relative;
+    cursor: pointer;
+}
+
+.wrapp-img:after{
+    content:"+";
+    font-size: 5rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(26, 188, 156, .5);
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: var(--bg-light);
+}
+
+.wrapp-img:hover::after{
+    opacity: 1;
 }
 
 /* portfolio classes end */
