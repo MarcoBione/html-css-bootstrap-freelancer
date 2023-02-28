@@ -43,7 +43,7 @@
     width: 300px;
 }
 
-#hero{
+#hero, #aboutme{
     background-color: var(--bg-section);
     color: var(--bg-light);
 }
@@ -117,5 +117,19 @@
 }
 
 /* portfolio classes end */
+
+/* about me classes */
+.btn-style{
+    background-color: transparent;
+    border: 1px solid var(--bg-light);
+    
+}
+
+.btn-style a{
+    text-decoration: none;
+    color: var(--bg-light);
+}
+
+/* about me classes end */
 
 /* MAIN CLASSES END */
