@@ -122,14 +122,15 @@
 .btn-style{
     background-color: transparent;
     border: 1px solid var(--bg-light);
-    
-}
-
-.btn-style a{
-    text-decoration: none;
     color: var(--bg-light);
+    font-weight: 500;
+    transition: background-color 0.4s;
 }
 
+.btn-style:hover{
+    background-color: var(--bg-light);
+    color: var(--bg-section);
+}
 /* about me classes end */
 
 /* contact me classes */
