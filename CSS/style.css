@@ -24,6 +24,13 @@
     text-decoration: none;
     color: var(--bg-light);
     font-weight: bold;
+    transition: color 0.3s;
+}
+
+#header a:hover{
+    text-decoration: none;
+    color: var(--bg-section);
+    font-weight: bold;
 }
 
 #header button{
@@ -33,6 +40,15 @@
 #header .border-style-menu{
     border:1px solid var(--bg-light);
 }
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
 
 /* HEADER CLASSES END */
 
