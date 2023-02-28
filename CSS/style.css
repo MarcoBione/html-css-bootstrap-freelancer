@@ -1,47 +1,65 @@
-:root{
+:root {
     /* Color styles */
---bg-dark: #2C3E50;
---bg-section: #1abc9c;
---bg-light: #FFFFFF;
---bg-soft-dark: #3A546D;
---text-dark: #2C3E50;
+    --bg-dark: #2C3E50;
+    --bg-section: #1abc9c;
+    --bg-light: #FFFFFF;
+    --bg-soft-dark: #3A546D;
+    --text-dark: #2C3E50;
 
 }
 
 /* utilities */
-.debug{
+.debu {
     outline: 1px solid red;
 }
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+    background-color: var(--bg-dark);
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: var(--bg-section);
+    border-radius: 10px;
+}
+
 /* utilities end */
 
 /* HEADER CLASSES */
-#header{
+#header {
     background-color: var(--bg-dark);
     color: var(--bg-light);
 }
 
-#header a{
+#header a {
     text-decoration: none;
     color: var(--bg-light);
     font-weight: bold;
     transition: color 0.3s;
 }
 
-#header a:hover{
+#header a:hover {
     text-decoration: none;
     color: var(--bg-section);
     font-weight: bold;
 }
 
-#header button{
+#header button {
     color: var(--bg-light);
 }
 
-#header .border-style-menu{
-    border:1px solid var(--bg-light);
+#header .border-style-menu {
+    border: 1px solid var(--bg-light);
 }
 
-header{
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -55,23 +73,25 @@ header{
 /* MAIN CLASSES */
 
 /* hero classes section */
-.logo img{
+.logo img {
     width: 300px;
 }
 
-#hero, #aboutme{
+#hero,
+#aboutme {
     background-color: var(--bg-section);
     color: var(--bg-light);
 }
 
-.star i{
+.star i {
     font-size: 2rem;
     width: 20%;
     display: block;
 }
 
-.star:before, .star:after{
-    content:'';
+.star:before,
+.star:after {
+    content: '';
     display: block;
     width: 40%;
     height: 4px;
@@ -79,14 +99,15 @@ header{
     background-color: var(--bg-light);
 }
 
-.stareven i{
+.stareven i {
     font-size: 2rem;
     width: 20%;
     display: block;
 }
 
-.stareven:before, .stareven:after{
-    content:'';
+.stareven:before,
+.stareven:after {
+    content: '';
     display: block;
     width: 40%;
     height: 4px;
@@ -100,19 +121,19 @@ header{
 
 /* portfolio classes */
 
-#portfolio img{
+#portfolio img {
     width: 100%;
     display: block;
     position: relative;
 }
 
-.wrapp-img{
+.wrapp-img {
     position: relative;
     cursor: pointer;
 }
 
-.wrapp-img:after{
-    content:"+";
+.wrapp-img:after {
+    content: "+";
     font-size: 5rem;
     position: absolute;
     top: 0;
@@ -128,14 +149,14 @@ header{
     color: var(--bg-light);
 }
 
-.wrapp-img:hover::after{
+.wrapp-img:hover::after {
     opacity: 1;
 }
 
 /* portfolio classes end */
 
 /* about me classes */
-.btn-style{
+.btn-style {
     background-color: transparent;
     border: 1px solid var(--bg-light);
     color: var(--bg-light);
@@ -143,19 +164,20 @@ header{
     transition: background-color 0.4s;
 }
 
-.btn-style:hover{
+.btn-style:hover {
     background-color: var(--bg-light);
     color: var(--bg-section);
 }
+
 /* about me classes end */
 
 /* contact me classes */
-.form-label{
+.form-label {
     font-size: 1.5rem;
     font-weight: semibold;
 }
 
-.btn-style-f{
+.btn-style-f {
     background-color: var(--bg-section);
     border: 1px solid var(--bg-section);
     color: var(--bg-light);
@@ -163,32 +185,33 @@ header{
     transition: background-color 0.4s;
 }
 
-.btn-style-f:hover{
+.btn-style-f:hover {
     background-color: var(--bg-light);
     border: 1px solid var(--bg-section);
     color: var(--bg-section);
 }
+
 /* contanct me classes end */
 
 /* footer top classes*/
-.footer-top{
+.footer-top {
     background-color: var(--bg-soft-dark);
     color: var(--bg-light);
     text-align: center;
 }
 
-.footer-bottom{
+.footer-bottom {
     background-color: var(--bg-dark);
     color: var(--bg-light);
 }
 
-.socials a{
+.socials a {
     text-decoration: none;
     color: var(--bg-light);
     background-color: var(--bg-dark);
 }
 
-.circle{
+.circle {
     border: 2px solid var(--bg-light);
     background-color: var(--bg-dark);
     text-align: center;
@@ -199,16 +222,17 @@ header{
     height: 50px;
 }
 
-.circle:hover{
+.circle:hover {
     border: 2px solid var(--bg-light);
     background-color: var(--bg-light);
     width: 50px;
     height: 50px;
 }
 
-.evidence{
+.evidence {
     color: var(--bg-section);
 }
+
 /* footer top classes end */
 
 /* MAIN CLASSES END */
